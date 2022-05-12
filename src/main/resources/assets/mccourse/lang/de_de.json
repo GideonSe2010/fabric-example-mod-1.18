@@ -1,4 +1,6 @@
 {
   "item.mccourse.orichalcum_ingot": "Orichalkum Barren",
-  "item.mccourse.orichalcum_nugget": "Orichalkum Klumpen"
+  "item.mccourse.orichalcum_nugget": "Orichalkum Klumpen",
+  "block.mccourse.orichalcum_block": "Orichalkum Block",
+  "block.mccourse.orichalcum_ore": "Orichalkum Erz"
 }
