@@ -1,6 +1,7 @@
 package de.gideonseifert.mccourse.block;
 
 import de.gideonseifert.mccourse.MCCourseMod;
+import de.gideonseifert.mccourse.item.ModItemGroups;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -15,9 +16,13 @@ public class ModBlocks {
 
 
     public static final Block ORICHALCUM_BLOCK = registerBlock("orichalcum_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f)), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f)), ModItemGroups.COURSE);
     public static final Block ORICHALCUM_ORE = registerBlock("orichalcum_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(6f)), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f)), ModItemGroups.COURSE);
+    public static final Block DEEPSLATE_ORICHALCUM_ORE = registerBlock("deepslate_orichalcum_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f)), ModItemGroups.COURSE);
+    public static final Block RAW_ORICHALCUM_BLOCK = registerBlock("raw_orichalcum_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f)), ModItemGroups.COURSE);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
