@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "a"
+  ],
+  "key": {
+    "#": {
+      "item": "mccourse:sesame"
+    },
+    "a": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "mccourse:burgerbread"
+  }
+}

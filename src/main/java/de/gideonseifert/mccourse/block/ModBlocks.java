@@ -1,6 +1,7 @@
 package de.gideonseifert.mccourse.block;
 
 import de.gideonseifert.mccourse.MCCourseMod;
+import de.gideonseifert.mccourse.block.custom.SpeedyBlock;
 import de.gideonseifert.mccourse.item.ModItemGroups;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -23,6 +24,12 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(6f)), ModItemGroups.COURSE);
     public static final Block RAW_ORICHALCUM_BLOCK = registerBlock("raw_orichalcum_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(6f)), ModItemGroups.COURSE);
+    public static final Block LIDL_BLOCK = registerBlock("lidl_block",
+            new Block(FabricBlockSettings.of(Material.WOOL).strength(6f)), ModItemGroups.COURSE);
+    public static final Block CHEESE_BLOCK = registerBlock("cheese_block",
+            new Block(FabricBlockSettings.of(Material.WOOL).strength(6f)), ModItemGroups.FOOD);
+    public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
+            new SpeedyBlock(FabricBlockSettings.of(Material.STONE).strength(6f)), ModItemGroups.COURSE);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

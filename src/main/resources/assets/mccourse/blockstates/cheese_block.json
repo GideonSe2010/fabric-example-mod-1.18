@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "mccourse:block/cheese_block" }
+  }
+}

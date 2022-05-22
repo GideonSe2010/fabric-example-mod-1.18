@@ -2,6 +2,7 @@ package de.gideonseifert.mccourse;
 
 import de.gideonseifert.mccourse.block.ModBlocks;
 import de.gideonseifert.mccourse.item.ModItems;
+import de.gideonseifert.mccourse.util.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,5 +16,6 @@ public class MCCourseMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModRegistries.registerModStuffs();
 	}
 }

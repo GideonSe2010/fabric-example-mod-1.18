@@ -9,4 +9,6 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup COURSE = FabricItemGroupBuilder.build(new Identifier(MCCourseMod.MOD_ID,"course"),
             () -> new ItemStack(ModItems.ORICHALCUM_INGOT));
+    public static final ItemGroup FOOD = FabricItemGroupBuilder.build(new Identifier(MCCourseMod.MOD_ID,"food"),
+            () -> new ItemStack(ModItems.LETTUCE));
 }

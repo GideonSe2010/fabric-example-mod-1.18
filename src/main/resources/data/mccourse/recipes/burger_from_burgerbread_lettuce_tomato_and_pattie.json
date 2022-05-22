@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "abc",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "mccourse:burgerbread"
+    },
+    "a": {
+      "item": "mccourse:lettuce"
+    },
+    "b": {
+      "item": "mccourse:tomato"
+    },
+    "c": {
+      "item": "mccourse:pattie"
+    }
+  },
+  "result": {
+    "item": "mccourse:burger"
+  }
+}
