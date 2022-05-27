@@ -25,5 +25,7 @@
   "block.mccourse.speedy_block": "Schnelligkeits Block",
   "itemGroup.mccourse.course": "Kurs Tab",
   "itemGroup.mccourse.food": "Essen",
-  "item.mccourse.dowsing_rod.no_valuables": "Kein Ziel gefunden!"
+  "item.mccourse.dowsing_rod.no_valuables": "Kein Ziel gefunden!",
+  "item.mccourse.dowsing_rod.tooltip.shift": "Rechts-Klick um Erze zu finden",
+  "item.mccourse.dowsing_rod.tooltip": "Drücke §eSHIFT§r für mehr Information"
 }

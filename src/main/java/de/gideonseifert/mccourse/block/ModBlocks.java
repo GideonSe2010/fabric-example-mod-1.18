@@ -1,12 +1,15 @@
 package de.gideonseifert.mccourse.block;
 
 import de.gideonseifert.mccourse.MCCourseMod;
+import de.gideonseifert.mccourse.block.custom.ModStairsBlock;
 import de.gideonseifert.mccourse.block.custom.SpeedyBlock;
 import de.gideonseifert.mccourse.item.ModItemGroups;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
+import net.minecraft.block.SlabBlock;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -28,6 +31,11 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.WOOL).strength(6f)), ModItemGroups.COURSE);
     public static final Block CHEESE_BLOCK = registerBlock("cheese_block",
             new Block(FabricBlockSettings.of(Material.WOOL).strength(6f)), ModItemGroups.FOOD);
+    public static final Block ORICHALCUM_STAIRS = registerBlock("orichalcum_stairs",
+            new ModStairsBlock(ModBlocks.ORICHALCUM_BLOCK.getDefaultState()
+                    ,FabricBlockSettings.of(Material.STONE).strength(6f)), ModItemGroups.COURSE);
+    public static final Block ORICHALCUM_SLAB = registerBlock("orichalcum_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(6f)), ModItemGroups.COURSE);
     public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
             new SpeedyBlock(FabricBlockSettings.of(Material.STONE).strength(6f)), ModItemGroups.COURSE);
 

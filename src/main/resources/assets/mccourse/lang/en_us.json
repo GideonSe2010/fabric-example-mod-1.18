@@ -26,5 +26,7 @@
   "block.mccourse.speedy_block": "Speedy Block",
   "itemGroup.mccourse.course": "Course Tab",
   "itemGroup.mccourse.food": "Food",
-  "item.mccourse.dowsing_rod.no_valuables": "No Valuables found!"
+  "item.mccourse.dowsing_rod.no_valuables": "No Valuables found!",
+  "item.mccourse.dowsing_rod.tooltip.shift": "Right Click to find valuables",
+  "item.mccourse.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information."
 }
