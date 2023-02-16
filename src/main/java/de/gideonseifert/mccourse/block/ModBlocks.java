@@ -1,6 +1,8 @@
 package de.gideonseifert.mccourse.block;
 
 import de.gideonseifert.mccourse.MCCourseMod;
+import de.gideonseifert.mccourse.block.custom.HasteBlock;
+import de.gideonseifert.mccourse.block.custom.HealBlock;
 import de.gideonseifert.mccourse.block.custom.ModStairsBlock;
 import de.gideonseifert.mccourse.block.custom.SpeedyBlock;
 import de.gideonseifert.mccourse.item.ModItemGroups;
@@ -35,10 +37,19 @@ public class ModBlocks {
             new ModStairsBlock(ModBlocks.ORICHALCUM_BLOCK.getDefaultState()
                     ,FabricBlockSettings.of(Material.STONE).strength(6f)), ModItemGroups.COURSE);
     public static final Block ORICHALCUM_SLAB = registerBlock("orichalcum_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(6f)), ModItemGroups.COURSE);
+            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroups.COURSE);
     public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
             new SpeedyBlock(FabricBlockSettings.of(Material.STONE).strength(6f)), ModItemGroups.COURSE);
-
+    public static final Block SLIME_BLOCK = registerBlock("slime_block",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(6f)), ModItemGroups.COURSE);
+    public static final Block HEALTH_BLOCK = registerBlock("health_block",
+            new HealBlock(FabricBlockSettings.of(Material.STONE).strength(6f)), ModItemGroups.COURSE);
+    public static final Block HASTE_BLOCK = registerBlock("haste_block",
+            new HasteBlock(FabricBlockSettings.of(Material.STONE).strength(6f)), ModItemGroups.COURSE);
+    public static final Block ONE_COMPRESSED_STONE_BLOCK = registerBlock("one_compressed_stone_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(10f)), ModItemGroups.STONE);
+    public static final Block DOUBLE_COMPRESSED_STONE_BLOCK = registerBlock("double_compressed_stone_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(12f)), ModItemGroups.STONE);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

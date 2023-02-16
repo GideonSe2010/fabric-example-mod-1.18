@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mccourse:cheese"
+    }
+  },
+  "result": {
+    "item": "mccourse:cheese_crisps",
+    "count": "9"
+  }
+}

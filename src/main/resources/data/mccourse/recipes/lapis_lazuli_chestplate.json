@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lapis_lazuli"
+    }
+
+  },
+  "result": {
+    "item": "mccourse:lapis_lazuli_chestplate"
+  }
+}

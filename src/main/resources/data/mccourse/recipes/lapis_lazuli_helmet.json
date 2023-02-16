@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "a a"
+
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lapis_lazuli"
+    }
+
+  },
+  "result": {
+    "item": "mccourse:lapis_lazuli_helmet"
+  }
+}

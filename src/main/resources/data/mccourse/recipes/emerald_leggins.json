@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald"
+    }
+
+  },
+  "result": {
+    "item": "mccourse:emerald_leggins"
+  }
+}

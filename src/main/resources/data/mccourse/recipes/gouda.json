@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#r"
+
+  ],
+  "key": {
+    "#": {
+      "item": "mccourse:cheese"
+    },
+    "r": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "mccourse:gouda"
+  }
+}

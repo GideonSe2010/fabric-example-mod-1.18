@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " r "
+
+  ],
+  "key": {
+    "#": {
+      "item": "mccourse:cheese"
+    },
+    "r": {
+      "item": "mccourse:pizza_dough"
+    }
+  },
+  "result": {
+    "item": "mccourse:cheese_pizza"
+  }
+}

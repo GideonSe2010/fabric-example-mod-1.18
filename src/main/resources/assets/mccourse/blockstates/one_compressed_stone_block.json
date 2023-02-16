@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "mccourse:block/one_compressed_stone_block" }
+  }
+}
